@@ -34,7 +34,7 @@ const Navbar = () => {
                     <button className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Contact</button>
                 </div>
             </div>
-            <div className="border-t border-cyan-400"></div>
+            <div className="border-t border-cyan-400 mb-4"></div>
         </div>
     );
 };

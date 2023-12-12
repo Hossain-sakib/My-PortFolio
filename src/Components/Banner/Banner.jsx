@@ -13,7 +13,7 @@ const Banner = () => {
                         <div className="flex-1">
                             <img src="https://i.ibb.co/vzVH02p/banner-img.png" alt="" />
                         </div>
-                        <div className="flex-1 space-y-2">
+                        <div className="flex-1 space-y-2 text-right">
                             <h1 className="text-3xl font-medium text-cyan-300">Unlocking Digital Potential with <span className="text-5xl text-cyan-100">Hossain Sakib</span></h1>
                             <p className="text-6xl md:text-8xl font-bold text-cyan-300">Front<span className="text-white text-600">end</span> <br />Developer</p>
                             <p className="mt-10 max-w-lg text-xl text-cyan-50">Transforming Ideas into Digital Reality. Explore my portfolio to witness the power of MERN stack expertise. Let's build your next web solution together.</p>
@@ -24,7 +24,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div className="border-t border-cyan-400"></div>
+            <div className="border-t border-cyan-400 my-4"></div>
         </div>
     );
 };
