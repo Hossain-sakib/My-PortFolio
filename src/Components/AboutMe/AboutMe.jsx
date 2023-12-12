@@ -10,7 +10,7 @@ const AboutMe = () => {
     return (
         <div className='mt-10'>
             <div>
-                <p className='text-4xl font-bold'>About Me.</p>
+                <p className="font-bold text-5xl">About Me...</p>
                 <p className='text-xl mt-2 text-cyan-50'>A dedicated MERN stack developer with a passion for building dynamic and user-centric web applications. My journey in the world of programming started with a fascination for turning lines of code into powerful and functional solutions.</p>
             </div>
             <div className='mt-10  flex flex-col md:flex-row gap-10'>

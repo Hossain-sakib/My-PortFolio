@@ -1,4 +1,4 @@
-import { FaArrowDown } from "react-icons/fa6";
+import { MdDownload } from "react-icons/md";
 const resumeLink = "https://drive.google.com/drive/folders/1LR5TJLDtnec3NHwnhlLq4Tohp_FPMNby?usp=sharing";
 const Banner = () => {
     const handleDownloadResume = () => {
@@ -13,12 +13,12 @@ const Banner = () => {
                         <div className="flex-1">
                             <img src="https://i.ibb.co/vzVH02p/banner-img.png" alt="" />
                         </div>
-                        <div className="flex-1 space-y-2 text-right">
+                        <div className="flex-1 space-y-4 text-right">
                             <h1 className="text-3xl font-medium text-cyan-300">Unlocking Digital Potential with <span className="text-5xl text-cyan-100">Hossain Sakib</span></h1>
-                            <p className="text-6xl md:text-8xl font-bold text-cyan-300">Front<span className="text-white text-600">end</span> <br />Developer</p>
-                            <p className="mt-10 max-w-lg text-xl text-cyan-50">Transforming Ideas into Digital Reality. Explore my portfolio to witness the power of MERN stack expertise. Let's build your next web solution together.</p>
+                            <p className="text-6xl md:text-8xl font-bold text-cyan-300">MERN <span className="text-white text-600">Stack</span> <br />Developer</p>
+                            <p className="text-xl text-cyan-50">Transforming Ideas into Digital Reality. Explore my portfolio to witness the power of MERN stack expertise. Let's build your next web solution together.</p>
                             <div>
-                                <button onClick={handleDownloadResume} className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl"><FaArrowDown />Download Resume</button>
+                                <button onClick={handleDownloadResume} className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl mt-8"><MdDownload/>Download Resume</button>
                             </div>
                         </div>
                     </div>
