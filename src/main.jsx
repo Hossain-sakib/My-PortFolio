@@ -7,11 +7,9 @@ import {
 import router from './Routes/routes.jsx';
 
 
-
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='bg-black min-h-screen text-white'>
+    <div className='bg-black min-h-screen text-cyan-200'>
       <RouterProvider router={router} />
     </div>
   </React.StrictMode>,
