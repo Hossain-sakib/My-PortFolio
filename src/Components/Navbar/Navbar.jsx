@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     const navLinks =
         <>
-            <li className="btn btn-sm border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1"><Link to="/">Home</Link></li>
-            <li className="btn btn-sm border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1"><Link to="/">About me</Link></li>
-            <li className="btn btn-sm border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1"><Link to="/">Home</Link></li>
+            <Link to="/"> <li className="w-full btn btn-sm border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1">Home</li></Link>
+            <Link to="/"><li className="w-full btn btn-sm border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1">About me</li></Link>
+            <Link to="/"><li className="w-full btn btn-sm border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1">Home</li></Link>
         </>
     return (
         <div>
@@ -22,7 +22,7 @@ const Navbar = () => {
                             }
                         </ul>
                     </div>
-                    <a ><img className="w-36 rounded-lg overflow-hidden transition-all hover:scale-105  hover:shadow-2xl" src="https://s5.gifyu.com/images/SiWyc.gif" alt="" /></a>
+                    <Link to="/"><img className="w-36 rounded-lg overflow-hidden transition-all hover:scale-105  hover:shadow-2xl" src="https://s5.gifyu.com/images/SiWyc.gif" alt="" /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 gap-6 text-cyan-200">
