@@ -1,19 +1,18 @@
 import { SiFacebook, SiGithub, SiGmail } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiWhatsapp } from "react-icons/si";
-import { MdDownload } from "react-icons/md";
 
 import { Link } from "react-router-dom";
 
 
 const AboutMe = () => {
     return (
-        <div className='mt-10'>
+        <div className='py-10'>
             <div>
                 <p className="font-bold text-5xl">About Me...</p>
                 <p className='text-xl mt-2 text-cyan-50'>A dedicated MERN stack developer with a passion for building dynamic and user-centric web applications. My journey in the world of programming started with a fascination for turning lines of code into powerful and functional solutions.</p>
             </div>
-            <div className='mt-10  flex flex-col md:flex-row gap-10'>
+            <div className='my-10  flex flex-col md:flex-row gap-10'>
                 <div className='max-w-xl text-justify'>
                     <div className="">
                         <p className='text-3xl font-bold'>Get to know me!</p>
@@ -116,17 +115,17 @@ const AboutMe = () => {
                                     <div className="flex items-center justify-between gap-4 mb-2">
                                         <h6
                                             className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                                            React JS
+                                            MongoDB
                                         </h6>
                                         <h6
                                             className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                                            80%
+                                            75%
                                         </h6>
                                     </div>
                                     <div
                                         className="flex-start flex h-2.5 w-full overflow-hidden rounded-full bg-blue-gray-50 font-sans text-xs font-medium">
                                         <div
-                                            className="flex items-center justify-center w-[80%] h-full overflow-hidden text-white break-all bg-cyan-100 rounded-full">
+                                            className="flex items-center justify-center w-[75%] h-full overflow-hidden text-white break-all bg-cyan-100 rounded-full">
                                         </div>
                                     </div>
                                 </div>
@@ -152,20 +151,40 @@ const AboutMe = () => {
                                     <div className="flex items-center justify-between gap-4 mb-2">
                                         <h6
                                             className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                                            MongoDB
+                                            React JS
                                         </h6>
                                         <h6
                                             className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                                            75%
+                                            80%
                                         </h6>
                                     </div>
                                     <div
                                         className="flex-start flex h-2.5 w-full overflow-hidden rounded-full bg-blue-gray-50 font-sans text-xs font-medium">
                                         <div
-                                            className="flex items-center justify-center w-[75%] h-full overflow-hidden text-white break-all bg-cyan-100 rounded-full">
+                                            className="flex items-center justify-center w-[80%] h-full overflow-hidden text-white break-all bg-cyan-100 rounded-full">
                                         </div>
                                     </div>
                                 </div>
+                                <div className="w-full mt-2">
+                                    <div className="flex items-center justify-between gap-4 mb-2">
+                                        <h6
+                                            className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
+                                            Node JS
+                                        </h6>
+                                        <h6
+                                            className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
+                                            80%
+                                        </h6>
+                                    </div>
+                                    <div
+                                        className="flex-start flex h-2.5 w-full overflow-hidden rounded-full bg-blue-gray-50 font-sans text-xs font-medium">
+                                        <div
+                                            className="flex items-center justify-center w-[80%] h-full overflow-hidden text-white break-all bg-cyan-100 rounded-full">
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                               
                             </div>
                         </div>
                        

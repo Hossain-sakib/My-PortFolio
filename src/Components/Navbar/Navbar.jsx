@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     const navLinks =
         <>
-            <Link to="/"> <li className="w-full btn btn-sm border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1">Home</li></Link>
-            <Link to="/"><li className="w-full btn btn-sm border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1">About me</li></Link>
-            <Link to="/"><li className="w-full btn btn-sm border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1">Home</li></Link>
+            <Link to="/"> <li className="w-full btn btn-sm border-1 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1">Home</li></Link>
+            <Link to="/about"><li className="w-full btn btn-sm border-1 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1">About</li></Link>
+            <Link to="/"><li className="w-full btn btn-sm border-1 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1">Projects</li></Link>
         </>
     return (
         <div>

@@ -7,7 +7,7 @@ const RecentWorks = () => {
                 <h1 className="font-bold text-5xl">My Recent Works...</h1>
             </div>
             {/* zen zephyr  */}
-            <div className="mt-10 flex flex-col md:flex-row items-center md:gap-10">
+            <div className="mt-10 flex flex-col md:flex-row items-center md:gap-6">
                 <img src="https://i.ibb.co/syCyg31/Neon-Retro-Stars-Marketing-Mockup-Website-Instagram-Post.png" alt="" className="md:w-1/2" />
                 <div className="space-y-5">
                     <h1 className="mt-5 md:mt-0 text-xl md:text-3xl font-bold">Social learning Website</h1>
@@ -21,7 +21,7 @@ const RecentWorks = () => {
                             <li>Fully Device Responsive</li>
                         </ul>
                     </p>
-                    <div className="flex flex-col lg:flex-row gap-5">
+                    <div className="flex flex-col  gap-5">
                         <Link to='https://zen-zephyr.web.app/' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Live Website Link</Link>
                         <Link to='https://github.com/Hossain-sakib/Zen-zephyr--client-' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Client Site Repository</Link>
                         <Link to='https://github.com/Hossain-sakib/Zen-zephyr--server' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Server Site Repository</Link>
@@ -30,7 +30,7 @@ const RecentWorks = () => {
             </div>
             <div className="border-t border-cyan-400 my-4"></div>
             {/* Study Buddy Hub */}
-            <div className="mt-10 flex flex-col md:flex-row-reverse items-center md:gap-10">
+            <div className="mt-10 flex flex-col md:flex-row-reverse items-center ">
                 <img src="https://i.ibb.co/2jh3mdR/Neon-Retro-Stars-Marketing-Mockup-Website-Instagram-Post-1.png" alt="" className="md:w-1/2" />
                 <div className="space-y-5">
                     <h1 className="mt-5 md:mt-0 text-xl md:text-3xl font-bold">Online assignments platform</h1>
@@ -45,7 +45,7 @@ const RecentWorks = () => {
                             <li>Fully Device Responsive</li>
                         </ul>
                     </p>
-                    <div className="flex flex-col lg:flex-row gap-5">
+                    <div className="flex flex-col gap-5">
                         <Link to='https://study-buddy-hub.web.app/' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Live Website Link</Link>
                         <Link to='https://github.com/Hossain-sakib/StudyBuddyHub-client' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Client Site Repository</Link>
                         <Link to='https://github.com/Hossain-sakib/StudyBuddyHub-server' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Server Site Repository</Link>
@@ -54,7 +54,7 @@ const RecentWorks = () => {
             </div>
             <div className="border-t border-cyan-400 my-4"></div>
             {/* Flavor voyage */}
-            <div className="mt-10 flex flex-col md:flex-row items-center md:gap-10">
+            <div className="mt-10 flex flex-col md:flex-row items-center md:gap-6">
                 <img src="https://i.ibb.co/Gk4JjKn/Neon-Retro-Stars-Marketing-Mockup-Website-Instagram-Post-2.png" alt="" className="md:w-1/2" />
                 <div className="space-y-5">
                     <h1 className="mt-5 md:mt-0 text-xl md:text-3xl font-bold">Brands Shop site</h1>
@@ -68,7 +68,7 @@ const RecentWorks = () => {
                             <li>Fully Device Responsive</li>
                         </ul>
                     </p>
-                    <div className="flex flex-col lg:flex-row gap-5">
+                    <div className="flex flex-col  gap-5">
                         <Link to='https://flavor-voyage.web.app/' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Live Website Link</Link>
                         <Link to='https://github.com/Hossain-sakib/FlavorVoyage---client' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Client Site Repository</Link>
                         <Link to='https://github.com/Hossain-sakib/FlavorVoyage-server' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Server Site Repository</Link>

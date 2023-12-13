@@ -11,24 +11,20 @@ const SendEmail = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const serviceId = process.env.REACT_APP_SERVICE_ID;
-        const templateId = process.env.REACT_APP_TEMPLATE_ID;
-        const publicKey = process.env.REACT_APP_PUBLIC_KEY;
-        console.log("serviceId:", serviceId);
-        console.log("templateId:", templateId);
-        console.log("publicKey:", publicKey);
-
         emailjs
-            .sendForm(serviceId, templateId, form.current, publicKey)
+            .sendForm("service_foudpvg", "template_kunltj6", form.current, "nWmHybbLPokblFEdY")
             .then((result) => {
                 console.log(result);
                 if (result.status === 200) {
+                    form.current.reset();
                     Swal.fire({
                         position: "top-end",
                         icon: "success",
-                        title: "Mail sent successfully !",
+                        title: "Mail sent successfully!",
                         showConfirmButton: false,
-                        timer: 1500
+                        timer: 1500,
+                        color: "#4DD0E1",
+                        background: "#000000",
                     });
                 }
             })
