@@ -17,7 +17,7 @@ const Skills = () => {
                             90%
                         </h6>
                         <div
-                            className="flex items-center justify-center w-[90%] h-full text-white break-all bg-cyan-100">
+                            className="flex items-center justify-center w-[45%] h-full text-white break-all bg-cyan-100">
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const Skills = () => {
                             80%
                         </h6>
                         <div
-                            className="flex items-center justify-center w-[80%] h-full text-white break-all bg-cyan-100">
+                            className="flex items-center justify-center w-[40%] h-full text-white break-all bg-cyan-100">
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const Skills = () => {
                             85%
                         </h6>
                         <div
-                            className="flex items-center justify-center w-[85%] h-full text-white break-all bg-cyan-100">
+                            className="flex items-center justify-center w-[42%] h-full text-white break-all bg-cyan-100">
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ const Skills = () => {
                             75%
                         </h6>
                         <div
-                            className="flex items-center justify-center w-[75%] h-full text-white break-all bg-cyan-100">
+                            className="flex items-center justify-center w-[38%] h-full text-white break-all bg-cyan-100">
                         </div>
                     </div>
                 </div>
@@ -93,14 +93,14 @@ const Skills = () => {
                             75%
                         </h6>
                         <div
-                            className="flex items-center justify-center w-[75%] h-full text-white break-all bg-cyan-100">
+                            className="flex items-center justify-center w-[38%] h-full text-white break-all bg-cyan-100">
                         </div>
                     </div>
                 </div>
             </div>
             <div className="w-full">
                 <div className="w-24 h-24 flex flex-col space-y-3 items-center bg-black border border-cyan-300 p-2 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">
-                    <img className="w-8" src="https://i.ibb.co/nRRnxwh/Express.png" />
+                    <img className="w-8" src="https://i.ibb.co/xGhyCcf/Web-Photo-Editor.jpg" />
                     <h6
                         className="block font-sans text-xs  text-blue-gray-900">
                         Express JS
@@ -112,7 +112,7 @@ const Skills = () => {
                             75%
                         </h6>
                         <div
-                            className="flex items-center justify-center w-[75%] h-full text-white break-all bg-cyan-100">
+                            className="flex items-center justify-center w-[38%] h-full text-white break-all bg-cyan-100">
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ const Skills = () => {
                             80%
                         </h6>
                         <div
-                            className="flex items-center justify-center w-[80%] h-full text-white break-all bg-cyan-100">
+                            className="flex items-center justify-center w-[40%] h-full text-white break-all bg-cyan-100">
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@ const Skills = () => {
                             80%
                         </h6>
                         <div
-                            className="flex items-center justify-center w-[80%] h-full text-white break-all bg-cyan-100">
+                            className="flex items-center justify-center w-[40%] h-full text-white break-all bg-cyan-100">
                         </div>
                     </div>
                 </div>

@@ -50,7 +50,7 @@ const SendEmail = () => {
                     <button type="submit" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">
                         send<MdSend />
                     </button>
-                </form>
+                </form>        
             </div>
             <div className="border-t border-cyan-400 my-4"></div>
         </div>
