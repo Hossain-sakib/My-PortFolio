@@ -30,7 +30,7 @@ const RecentWorks = () => {
             </div>
             <div className="border-t border-cyan-400 my-4"></div>
             {/* Study Buddy Hub */}
-            <div className="mt-10 flex flex-col md:flex-row-reverse items-center ">
+            <div className="mt-10 flex flex-col md:flex-row-reverse items-center md:gap-6">
                 <img src="https://i.ibb.co/2jh3mdR/Neon-Retro-Stars-Marketing-Mockup-Website-Instagram-Post-1.png" alt="" className="md:w-1/2" />
                 <div className="space-y-5">
                     <h1 className="mt-5 md:mt-0 text-xl md:text-3xl font-bold">Online assignments platform</h1>
