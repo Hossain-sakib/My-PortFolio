@@ -1,17 +1,23 @@
-import { Link } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll";
+import { Link, useNavigate } from "react-router-dom";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 
 
 const Navbar = () => {
+    const navigate = useNavigate();
+
+    const scrollToComponent = (elementId) => {
+        navigate("/");
+        scroll.scrollToElement(elementId, { smooth: true, duration: 500 });
+    };
     const navLinks =
         <>
             <Link to="/"> <li className="w-full btn btn-sm border-1 bg-black text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1">Home</li></Link>
             <ScrollLink to="about-me" smooth={true} duration={500}>
-                <li className="w-full btn btn-sm border-1 bg-black text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1">About</li>
+                <li className="w-full btn btn-sm border-1 bg-black text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1" onClick={() => scrollToComponent("about-me")}>About</li>
             </ScrollLink>
             <ScrollLink to="recent-works" smooth={true} duration={500}>
-                <li className="w-full btn btn-sm border-1 bg-black text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1">Projects</li>
+                <li className="w-full btn btn-sm border-1 bg-black text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1" onClick={() => scrollToComponent("recent-works")}>Projects</li>
             </ScrollLink>
             <Link to="/contact"><li className="w-full btn btn-sm border-1 bg-black  text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl my-1">Contact</li></Link>
         </>

@@ -1,4 +1,7 @@
+import { SiGithub } from "react-icons/si";
 import { Link } from "react-router-dom";
+import { FaLink } from "react-icons/fa6";
+
 
 const RecentWorks = () => {
     return (
@@ -22,9 +25,9 @@ const RecentWorks = () => {
                         </ul>
                     </p>
                     <div className="flex flex-col  gap-5">
-                        <Link to='https://zen-zephyr.web.app/' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Live Website Link</Link>
-                        <Link to='https://github.com/Hossain-sakib/Zen-zephyr--client-' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Client Site Repository</Link>
-                        <Link to='https://github.com/Hossain-sakib/Zen-zephyr--server' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Server Site Repository</Link>
+                        <Link to='https://zen-zephyr.web.app/' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl"><FaLink></FaLink>Live Website Link</Link>
+                        <Link to='https://github.com/Hossain-sakib/Zen-zephyr--client-' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl"><SiGithub></SiGithub>Client Side Repository</Link>
+                        <Link to='https://github.com/Hossain-sakib/Zen-zephyr--server' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl"><SiGithub></SiGithub>Server Side Repository</Link>
                     </div>
                 </div>
             </div>
@@ -46,9 +49,9 @@ const RecentWorks = () => {
                         </ul>
                     </p>
                     <div className="flex flex-col gap-5">
-                        <Link to='https://study-buddy-hub.web.app/' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Live Website Link</Link>
-                        <Link to='https://github.com/Hossain-sakib/StudyBuddyHub-client' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Client Site Repository</Link>
-                        <Link to='https://github.com/Hossain-sakib/StudyBuddyHub-server' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Server Site Repository</Link>
+                        <Link to='https://study-buddy-hub.web.app/' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl"><FaLink></FaLink>Live Website Link</Link>
+                        <Link to='https://github.com/Hossain-sakib/StudyBuddyHub-client' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl"><SiGithub></SiGithub>Client Side Repository</Link>
+                        <Link to='https://github.com/Hossain-sakib/StudyBuddyHub-server' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl"><SiGithub></SiGithub>Server Side Repository</Link>
                     </div>
                 </div>
             </div>
@@ -69,9 +72,9 @@ const RecentWorks = () => {
                         </ul>
                     </p>
                     <div className="flex flex-col  gap-5">
-                        <Link to='https://flavor-voyage.web.app/' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Live Website Link</Link>
-                        <Link to='https://github.com/Hossain-sakib/FlavorVoyage---client' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Client Site Repository</Link>
-                        <Link to='https://github.com/Hossain-sakib/FlavorVoyage-server' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Server Site Repository</Link>
+                        <Link to='https://flavor-voyage.web.app/' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl"><FaLink></FaLink>Live Website Link</Link>
+                        <Link to='https://github.com/Hossain-sakib/FlavorVoyage---client' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl"><SiGithub></SiGithub>Client Side Repository</Link>
+                        <Link to='https://github.com/Hossain-sakib/FlavorVoyage-server' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl"><SiGithub></SiGithub>Server Side Repository</Link>
                     </div>
                 </div>
             </div>

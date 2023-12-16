@@ -4,6 +4,8 @@ import { SiWhatsapp } from "react-icons/si";
 
 import { Link } from "react-router-dom";
 import Expertise from "./Expertise/Expertise";
+import { FaInfoCircle } from "react-icons/fa";
+import { MdContactPhone } from "react-icons/md";
 
 
 const AboutMe = () => {
@@ -26,7 +28,7 @@ const AboutMe = () => {
                     <div className="mt-10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <Link to='https://www.linkedin.com/in/hossain-sakib-x/' target="_blank" className="btn btn-circle border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl text-2xl"><SiLinkedin></SiLinkedin></Link>
                         <Link to='mailto:Hossain.sakib.x@gmail.com' target="_blank" className="btn btn-circle border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl text-2xl"><SiGmail></SiGmail></Link>
-                        <Link to='https://github.com/Hossain-sakib' target="_blank" className="btn btn-circle border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl text-2xl"><SiGithub></SiGithub></Link>
+                        <a href='https://github.com/Hossain-sakib' className="btn btn-circle border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl text-2xl"><SiGithub></SiGithub></a>
                         <Link to='https://www.facebook.com/hossain.sakib.x/' target="_blank" className="btn btn-circle border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl text-2xl"><SiFacebook></SiFacebook></Link>
                         <Link to='https://wa.me/+8801955703819' target="_blank" className="btn btn-circle border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl text-2xl"><SiWhatsapp></SiWhatsapp></Link>
                     </div>
@@ -34,8 +36,9 @@ const AboutMe = () => {
                 </div>
                 <div>
                     <Expertise></Expertise>
-                    <div className="mt-8">
-                        <Link to='/about'><button className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">More info</button></Link>
+                    <div className="mt-8 flex items-center gap-6">
+                        <Link to='/about'><button className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl"><FaInfoCircle></FaInfoCircle> More info</button></Link>
+                        <Link to='/contact'><button className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl"><MdContactPhone></MdContactPhone>Contact</button></Link>
                     </div>
                 </div>
             </div>
