@@ -15,10 +15,6 @@ const Expertise = () => {
                                     className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
                                     HTML
                                 </h6>
-                                <h6
-                                    className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                                    90%
-                                </h6>
                             </div>
                             <div
                                 className="flex-start flex h-2.5 w-full overflow-hidden rounded-full bg-blue-gray-50 font-sans text-xs font-medium">
@@ -32,10 +28,6 @@ const Expertise = () => {
                                 <h6
                                     className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
                                     CSS
-                                </h6>
-                                <h6
-                                    className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                                    80%
                                 </h6>
                             </div>
                             <div
@@ -51,10 +43,6 @@ const Expertise = () => {
                                     className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
                                     Tailwind CSS
                                 </h6>
-                                <h6
-                                    className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                                    85%
-                                </h6>
                             </div>
                             <div
                                 className="flex-start flex h-2.5 w-full overflow-hidden rounded-full bg-blue-gray-50 font-sans text-xs font-medium">
@@ -68,10 +56,6 @@ const Expertise = () => {
                                 <h6
                                     className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
                                     JavaScript
-                                </h6>
-                                <h6
-                                    className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                                    75%
                                 </h6>
                             </div>
                             <div
@@ -87,10 +71,6 @@ const Expertise = () => {
                                     className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
                                     MongoDB
                                 </h6>
-                                <h6
-                                    className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                                    75%
-                                </h6>
                             </div>
                             <div
                                 className="flex-start flex h-2.5 w-full overflow-hidden rounded-full bg-blue-gray-50 font-sans text-xs font-medium">
@@ -104,10 +84,6 @@ const Expertise = () => {
                                 <h6
                                     className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
                                     Express JS
-                                </h6>
-                                <h6
-                                    className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                                    75%
                                 </h6>
                             </div>
                             <div
@@ -123,10 +99,6 @@ const Expertise = () => {
                                     className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
                                     React JS
                                 </h6>
-                                <h6
-                                    className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                                    80%
-                                </h6>
                             </div>
                             <div
                                 className="flex-start flex h-2.5 w-full overflow-hidden rounded-full bg-blue-gray-50 font-sans text-xs font-medium">
@@ -140,10 +112,6 @@ const Expertise = () => {
                                 <h6
                                     className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
                                     Node JS
-                                </h6>
-                                <h6
-                                    className="block font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                                    80%
                                 </h6>
                             </div>
                             <div

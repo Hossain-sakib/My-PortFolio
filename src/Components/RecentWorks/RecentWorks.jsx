@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const RecentWorks = () => {
     return (
-        <div className="mt-10">
+        <div className="py-10" id="recent-works">
             <div>
                 <h1 className="font-bold text-5xl">My Recent Works...</h1>
             </div>
@@ -22,9 +22,9 @@ const RecentWorks = () => {
                         </ul>
                     </p>
                     <div className="flex flex-col  gap-5">
-                        <Link to='https://zen-zephyr.web.app/' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Live Website Link</Link>
-                        <Link to='https://github.com/Hossain-sakib/Zen-zephyr--client-' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Client Site Repository</Link>
-                        <Link to='https://github.com/Hossain-sakib/Zen-zephyr--server' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Server Site Repository</Link>
+                        <Link to='https://zen-zephyr.web.app/' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Live Website Link</Link>
+                        <Link to='https://github.com/Hossain-sakib/Zen-zephyr--client-' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Client Site Repository</Link>
+                        <Link to='https://github.com/Hossain-sakib/Zen-zephyr--server' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Server Site Repository</Link>
                     </div>
                 </div>
             </div>
@@ -46,9 +46,9 @@ const RecentWorks = () => {
                         </ul>
                     </p>
                     <div className="flex flex-col gap-5">
-                        <Link to='https://study-buddy-hub.web.app/' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Live Website Link</Link>
-                        <Link to='https://github.com/Hossain-sakib/StudyBuddyHub-client' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Client Site Repository</Link>
-                        <Link to='https://github.com/Hossain-sakib/StudyBuddyHub-server' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Server Site Repository</Link>
+                        <Link to='https://study-buddy-hub.web.app/' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Live Website Link</Link>
+                        <Link to='https://github.com/Hossain-sakib/StudyBuddyHub-client' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Client Site Repository</Link>
+                        <Link to='https://github.com/Hossain-sakib/StudyBuddyHub-server' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Server Site Repository</Link>
                     </div>
                 </div>
             </div>
@@ -69,9 +69,9 @@ const RecentWorks = () => {
                         </ul>
                     </p>
                     <div className="flex flex-col  gap-5">
-                        <Link to='https://flavor-voyage.web.app/' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Live Website Link</Link>
-                        <Link to='https://github.com/Hossain-sakib/FlavorVoyage---client' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Client Site Repository</Link>
-                        <Link to='https://github.com/Hossain-sakib/FlavorVoyage-server' target="_blank" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Server Site Repository</Link>
+                        <Link to='https://flavor-voyage.web.app/' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Live Website Link</Link>
+                        <Link to='https://github.com/Hossain-sakib/FlavorVoyage---client' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Client Site Repository</Link>
+                        <Link to='https://github.com/Hossain-sakib/FlavorVoyage-server' target="_blank" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">Server Site Repository</Link>
                     </div>
                 </div>
             </div>

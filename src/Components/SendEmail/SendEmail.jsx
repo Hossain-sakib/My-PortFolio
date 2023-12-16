@@ -47,7 +47,7 @@ const SendEmail = () => {
                     <div>
                         <textarea name="message" placeholder="Your Message" className="textarea textarea-lg textarea-bordered border-cyan-300 w-full bg-cyan-950 bg-opacity-10"></textarea>
                     </div>
-                    <button type="submit" className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">
+                    <button type="submit" className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl">
                         send<MdSend />
                     </button>
                 </form>        

@@ -12,7 +12,7 @@ const About = () => {
                 <div className="flex flex-col justify-center rounded-md">
                     <img src="https://i.ibb.co/vzVH02p/banner-img.png" alt="" />
                     <div className="my-4 ml-20">
-                        <button onClick={handleDownloadResume} className="btn border-2 bg-black border-cyan-500 text-cyan-200 hover:border-2 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl mt-8"><MdDownload />Download Resume</button>
+                        <button onClick={handleDownloadResume} className="btn border-1 bg-black border-cyan-500 text-cyan-200 hover:border-1 hover:border-cyan-500 overflow-hidden transition-all hover:scale-105  hover:shadow-2xl mt-8"><MdDownload />Download Resume</button>
                     </div>
                 </div>
                 <div className="flex-1 space-y-6 p-4 max-w-2xl">
